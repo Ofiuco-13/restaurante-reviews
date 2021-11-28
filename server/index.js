@@ -4,3 +4,5 @@ import dotenv from "dotenv";
 
 dotenv.config();
 const mongoClient = mongodb.MongoClient;
+
+const port = process.env.PORT || 8000;
